@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', function(req, res) {
-		res.send("Hello app1");
+		res.send("Hello Nodejs project");
 });
 
 app.listen(8080, function(){
