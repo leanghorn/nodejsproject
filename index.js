@@ -8,6 +8,10 @@ app.get('/hi', function(req, res) {
 		res.send("Hello how are you");
 });
 
+app.get('/hello', function(req, res) {
+		res.send("Hello here!");
+});
+
 app.listen(8080, function(){
 		console.log('app is nuning in port 8080');
 });
